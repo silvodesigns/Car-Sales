@@ -12,9 +12,6 @@ import { valueToNode } from '@babel/types';
 
 const App = (props) => {
 
-  
-  console.log(props);
-
   const removeFeature = item => {
     // dispatch an action here to remove an item
         props.dispatch({type: REMOVE_FEATURE, payload: item})
